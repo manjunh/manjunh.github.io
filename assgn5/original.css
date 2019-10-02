@@ -1,0 +1,67 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  font-family: Reem Kufi;
+}
+
+.topnav input[type=text] {
+  position: absolute;
+  float: right;
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+  font-size: 17px;
+  border-radius: 20px;
+  right:200px;
+
+}
+
+.search {
+  position: absolute;
+  float: right;
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+  font-size: 17px;
+  border-radius: 20px;
+  background-color:white;
+ right:200px;
+}
+
+footer{
+  padding-left:40%;
+}
+
+
+.etc {
+  text-align:center;
+  display:inline-block;
+  padding:20px;
+  margin:0px;
+  padding-bottom: 0px
+}
