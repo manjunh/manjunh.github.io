@@ -58,6 +58,41 @@ footer{
 }
 
 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column1 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.column2 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.ori{
+  width:450px;
+}
+
+.column3 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 .etc {
   text-align:center;
   display:inline-block;
@@ -66,6 +101,110 @@ footer{
   padding-bottom: 0px
 }
 
-.option1{
-  flex:25%;
+.food {
+     border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+}
+
+.food2:hover {
+  background-color: #FDE096 ;
+}
+
+.food2 {
+      border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+table {
+  border-spacing: 0px;
+}
+
+th{
+  border-top:1px solid black;
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+  text-align:left;
+  font-size:12px;
+}
+
+td{
+  font-size:11px;
+  padding:0.1px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.rowgl {
+  display: flex;
+}
+
+.columngl {
+  flex: 50%;
+  padding: 10px;
+  height: 100px;
+}
+
+.glazefood {
+margin-top:-5px;
+text-align: center
+}
+
+.glazepic:hover{
+  opacity: 0.3;
+}
+
+.selected {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+
+.glazefood1 {
+margin-top:-5px;
+text-align: center;
+border:1px solid black;
+width:159px;
+border-bottom-left-radius:10px;
+border-bottom-right-radius: 10px;
+}
+
+.qty{
+padding-top:10px;
+}
+
+.total{
+  font-size:40px;
+  margin-top: 350px;
+  padding:10px;
+  font-family:Reem Kufi;
+  color: #C73535;
+  margin-bottom:0px;
+}
+
+.cart{
+  background-color: #FDE096 ;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+.cart:hover{
+  opacity: 0.3;
+}
+.cartimg{
+  width:45px;
+  padding: 10px;
+  margin-left:20px;
+  margin-top: 15px
+}
+
+h1{
+  margin-left:120px;
 }
