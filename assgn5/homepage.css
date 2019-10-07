@@ -2,6 +2,7 @@
 body {
 	margin: 0px;
 }
+
 .container {
   position: relative;
   text-align: center;
@@ -10,21 +11,19 @@ body {
   background: url("image/bunbun.png");
 }
 
-.topnav {
-  overflow: hidden;
+/*Top-left Logo*/
+.top-left {
+  position: absolute;
+  top: -435px;
+  left: 50px;
 }
 
-/* code from https://www.w3schools.com/howto/howto_css_searchbar.asp */
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+/* Top-right Cart*/
+.top-right {
+  position: absolute;
+  top: -435px;
+  right: 50px;
 }
-
 
 /* Bottom left text */
 .bottom-left {
@@ -56,12 +55,7 @@ body {
   width:100%;
 }
 
-.top-right {
-  position: absolute;
-  top: -435px;
-  right: 50px;
-}
-
+/*Centered text below centered text*/
 .centered-bottom {
 position: absolute;
   top: 65%;
@@ -73,12 +67,7 @@ position: absolute;
   width:100%;
 }
 
-.top-left {
-  position: absolute;
-  top: -435px;
-  left: 50px;
-}
-
+/*Title*/
 .centered1 {
   position: absolute;
   top: 30%;
@@ -89,6 +78,7 @@ position: absolute;
   font-family: 'Nanum Brush Script', cursive;
 }
 
+/*Title*/
 .centered2 {
   position: absolute;
   top: 40%;
@@ -100,8 +90,23 @@ position: absolute;
   width:50%;
 }
 
+/* CSS for Search Bar, code from https://www.w3schools.com/howto/howto_css_searchbar.asp */
+.topnav {
+  overflow: hidden;
+}
 
+/* CSS for Search Bar, code from https://www.w3schools.com/howto/howto_css_searchbar.asp */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
+/* CSS for Search Bar, code from https://www.w3schools.com/howto/howto_css_searchbar.asp */
 .topnav input[type=text] {
   float: right;
   padding: 10px;
@@ -113,6 +118,7 @@ position: absolute;
 
 }
 
+/* CSS for Search Bar, code from https://www.w3schools.com/howto/howto_css_searchbar.asp */
 .search {
   float: right;
   padding: 10px;
@@ -124,6 +130,7 @@ position: absolute;
   background-color:white;
 }
 
+/*Button for explore*/
 #explore a {
     border-radius: 20px;
     background-color: white;
@@ -132,3 +139,9 @@ position: absolute;
     color: #826340;
     font-size: 30px;
 }
+
+/*Remove underline in link*/
+a:link {
+  text-decoration: none;
+}
+

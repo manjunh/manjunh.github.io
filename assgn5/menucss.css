@@ -1,3 +1,4 @@
+/* Container holding the image and the text */
 .container {
   position: relative;
   text-align: center;
@@ -29,6 +30,7 @@
   font-family: Reem Kufi;
 }
 
+/* CSS for Search Bar, code from https://www.w3schools.com/howto/howto_css_searchbar.asp */
 .topnav input[type=text] {
   position: absolute;
   float: right;
@@ -53,6 +55,7 @@
  right:200px;
 }
 
+/*CSS for putting columns and rows for picture and text alignment*/
 .column {
   float: left;
   width: 33.33%;
@@ -74,6 +77,11 @@
   padding: 50px;
 }
 
+p {
+  margin-top: -7px;
+}
+
+/*CSS for footer texts*/
 .etc {
   text-align:center;
   display:inline-block;
@@ -82,15 +90,11 @@
   padding-bottom: 0px
 }
 
-.food:hover {
-  opacity: 0.3;
-}
-
-p {
-  margin-top: -7px;
-}
-
 footer{
   padding-left:40%;
 }
 
+/*CSS to show change when hovering over options*/
+.food:hover {
+  opacity: 0.3;
+}
