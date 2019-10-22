@@ -1,0 +1,223 @@
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  font-family: Reem Kufi;
+}
+
+/* CSS for Search Bar, code from https://www.w3schools.com/howto/howto_css_searchbar.asp */
+.topnav input[type=text] {
+  position: absolute;
+  float: right;
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+  font-size: 17px;
+  border-radius: 20px;
+  right:200px;
+
+}
+
+.search {
+  position: absolute;
+  float: right;
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+  font-size: 17px;
+  border-radius: 20px;
+  background-color:white;
+ right:200px;
+}
+
+/*CSS for setting the 3 different columns*/
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.column2 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.column3 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*CSS for option user is currently in and other available bun choices*/
+.food {
+     border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+}
+
+.food2:hover {
+  background-color: #FDE096 ;
+}
+
+.food2 {
+      border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+/*2nd column with image of the chosed roll and the ingredient table*/
+.ori{
+  width:450px;
+}
+
+table {
+  border-spacing: 0px;
+}
+
+th{
+  border-top:1px solid black;
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+  text-align:left;
+  font-size:12px;
+}
+
+td{
+  font-size:11px;
+  padding:0.1px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*CSS row and column section for 3rd column for glaze options*/
+.rowgl {
+  display: flex;
+}
+
+.columngl {
+  flex: 50%;
+  padding: 10px;
+  height: 100px;
+}
+
+.glazefood {
+margin-top:-5px;
+text-align: center
+}
+
+.glazepic:hover{
+  opacity: 0.3;
+}
+
+.selected {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+
+.glazefood1 {
+margin-top:-5px;
+text-align: center;
+border:1px solid black;
+width:159px;
+border-bottom-left-radius:10px;
+border-bottom-right-radius: 10px;
+}
+
+/*CSS for quantity scrolldown, subtotal cost, and add to cart button*/
+.qty{
+padding-top:10px;
+}
+
+.total{
+  font-size:40px;
+  margin-top: 350px;
+  padding:10px;
+  font-family:Reem Kufi;
+  color: #C73535;
+  margin-bottom:0px;
+}
+
+.cart{
+  background-color: #FDE096 ;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+.cart:hover{
+  opacity: 0.3;
+}
+
+.cartimg{
+  margin-right: 40px;
+  width:48px;
+}
+
+h1{
+  text-align: center;
+  margin-top:15px;
+  margin-right:10px;
+  margin-bottom: 15px;
+}
+
+/*CSS for footer texts*/
+.etc {
+  text-align:center;
+  display:inline-block;
+  padding:20px;
+  margin:0px;
+  padding-bottom: 0px
+}
+
+footer{
+  padding-left:40%;
+}
+
+/*Remove underline in link*/
+a:link {
+  text-decoration: none;
+}
+

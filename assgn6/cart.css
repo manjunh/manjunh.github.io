@@ -1,0 +1,152 @@
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  font-family: Reem Kufi;
+}
+
+/* CSS for Search Bar, code from https://www.w3schools.com/howto/howto_css_searchbar.asp */
+.topnav input[type=text] {
+  position: absolute;
+  float: right;
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+  font-size: 17px;
+  border-radius: 20px;
+  right:200px;
+
+}
+
+.search {
+  position: absolute;
+  float: right;
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+  font-size: 17px;
+  border-radius: 20px;
+  background-color:white;
+ right:200px;
+}
+
+/*2nd column with image of the chosed roll and the ingredient table*/
+.ori{
+  width:225px;
+  padding:10px;
+}
+
+.table{
+  margin:0 auto;
+  padding-top:10px;
+}
+
+table {
+  border-spacing: 0px;
+}
+
+.tabletop {
+  text-align:center;
+}
+
+.price {
+  text-align: right;
+}
+
+th{
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+  font-size:20px;
+}
+
+td{
+  font-size:23px;
+  padding:0.1px;
+  text-align:center;
+  border-bottom: 1px solid black;
+  width:200px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+select{
+  font-size: 17px
+}
+
+/*CSS for quantity scrolldown, subtotal cost, and add to cart button*/
+
+.total{
+  font-size:40px;
+  font-family:Reem Kufi;
+  color: #C73535;
+  text-align: right;
+}
+
+.cart{
+  background-color: #FDE096 ;
+  border-radius: 20px;
+  border: 3px solid black;
+  width: 300px;
+  font-size: 10px;
+  margin-left: 100%;
+  transform: translate(-300px, 0%);
+}
+
+.cart:hover{
+  opacity: 0.3;
+}
+
+
+h1{
+  text-align: center;
+  margin-top:15px;
+  margin-right:10px;
+  margin-bottom: 15px;
+}
+
+/*CSS for footer texts*/
+.etc {
+  text-align:center;
+  display:inline-block;
+  padding:20px;
+  margin:0px;
+  padding-bottom: 0px
+}
+
+footer{
+  padding-left:40%;
+}
+
+/*Remove underline in link*/
+a:link {
+  text-decoration: none;
+}
+
