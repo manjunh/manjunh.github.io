@@ -1,7 +1,11 @@
+// dictionary to define a price for each cinnamon options
 var dictionary = {
 	"Original": 3.00,
 	"Glutenfree": 3.00,
 	"Blackberry": 3.50,
+  "Pumpkinspice": 4.00,
+  "Walnut": 4.00,
+  "Caramelpecan": 4.00,
 }
 
 // function that shows updates price according to the quantity users choose

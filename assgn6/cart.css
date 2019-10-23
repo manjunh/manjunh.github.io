@@ -55,7 +55,7 @@
  right:200px;
 }
 
-/*2nd column with image of the chosed roll and the ingredient table*/
+/*list of the items in selected in to the cart*/
 .ori{
   width:225px;
   padding:10px;
@@ -102,7 +102,7 @@ select{
   font-size: 17px
 }
 
-/*CSS for quantity scrolldown, subtotal cost, and add to cart button*/
+/*CSS for subtotal cost, and proceed to checkout*/
 
 .total{
   font-size:40px;
@@ -113,27 +113,26 @@ select{
   margin-bottom:20px;
 }
 
-.cart{
-  background-color: #FDE096 ;
-  border-radius: 20px;
-  border: 3px solid black;
-  width: 300px;
-  font-size: 10px;
-  margin-left: 100%;
-  transform: translate(-300px, 0%);
-}
-
-.cart:hover{
+.button:hover{
   opacity: 0.3;
 }
 
+.button{
+  background-color: #FDE096;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 40px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size:20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left:78s%;
+  position:relative;
 
-h1{
-  text-align: center;
-  margin-top:15px;
-  margin-right:10px;
-  margin-bottom: 15px;
 }
+
 
 /*CSS for footer texts*/
 .etc {

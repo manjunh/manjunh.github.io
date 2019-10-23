@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>BBB Cart</title>
-    <!-- Links for referencing CSS and text fonts and JS -->
+    <!-- Links for referencing CSS and text fonts -->
     <link rel="stylesheet" type="text/css" href="cart.css">
     <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,9 +19,11 @@
       <img class="background" alt="Background" src="image/bunbuncrop.png" style="width:100%;height: 110px" >
       <div class="centered">CART</div>
     </div>
-      <a href="homepage.html"><img class="top-left" alt="Logo" src="image/Logo.png"></a>
-      <img class="top-right" alt="Cart" src="image/cart.png">
-      <div id="cart-count"></div>
+    <a href="homepage.html"><img class="top-left" alt="Logo" src="image/Logo.png"></a>
+    <img class="top-right" alt="Cart" src="image/cart.png">
+    <!-- div for the javascript in updating quantity of the cart -->
+    <div id="cart-count"></div>
+    <!-- table that lists the things in cart -->
     <div style="width:1200px" class="table">
       <table style="width:100%">
           <tr class="tabletop">
@@ -55,12 +57,15 @@
             <td class="price">$4.00</td>
           </tr>
       </table>
+      <!-- button to go back to Menu -->
       <div><a href="MENU.html"> < Back to Menu</a></div>
+      <!-- subtotal -->
       <div>
         <p class="total"> Subtotal: $4.00</p>
       </div>
-      <div class="cart">
-        <h1>Proceed to Checkout</h1>
+      <!-- proceed to checkout button -->
+      <div>
+        <button class="button">Proceed to Checkout</button>
       </div>
     </div>
    <!-- Footer for extra features that users might want to know about -->
