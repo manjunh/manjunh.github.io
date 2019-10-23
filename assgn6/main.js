@@ -44,7 +44,7 @@ function changeImage(){
           document.getElementById("ori").src = 'image/vanillamilk.png';
           break;
        case "Double-chocolate":
-          document.getElementById("ori").src = 'image/doublechoco.png'	;
+          document.getElementById("ori").src = 'image/doublechoco.png';
           break;
     }
 }
