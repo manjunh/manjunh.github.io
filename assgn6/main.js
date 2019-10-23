@@ -18,7 +18,7 @@ function myFunction() {
 
 // notification alert and add 1 to the cart
 function moveFunction() {
-  let cart = 0; 
+  var cart = 0; 
   if (localStorage.getItem('cart')) {
       cart = parseInt(localStorage.getItem('cart'))
   }
@@ -26,6 +26,14 @@ function moveFunction() {
   localStorage.setItem('cart', cart)
   document.getElementById('cart-count').innerHTML = `${cart}`
 	alert("Successfully moved to the Cart!")
+}
+
+// // the number remains when page reloaded
+function showcart() {
+  var cart = localStorage.getItem('cart');
+  if (localStorage.getItem('cart') > 0) {
+    document.getElementById(`cart-count`).innerHTML = `${cart}`
+  }
 }
 
 // changing image as users switch between radio selection
