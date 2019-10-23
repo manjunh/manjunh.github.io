@@ -108,6 +108,8 @@ select{
   font-family:Reem Kufi;
   color: #C73535;
   text-align: right;
+  margin-top: 0px;
+  margin-bottom:20px;
 }
 
 .cart{
@@ -143,6 +145,8 @@ h1{
 
 footer{
   padding-left:40%;
+  position: fixed;
+  bottom: 0;
 }
 
 /*Remove underline in link*/
