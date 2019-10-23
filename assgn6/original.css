@@ -20,6 +20,14 @@
   right: 30px;
 }
 
+#cart-count {
+  font-size: 100px;
+  position: absolute;
+  top: 10%;
+  right: 1%;
+  transform: translate(-50%, -50%);
+}
+
 /* Centered text */
 .centered {
   position: absolute;
@@ -152,16 +160,6 @@ margin-top:-5px;
   text-align: center;
 }
 
-/*.glazepic:hover{
-  opacity: 0.3;
-}*/
-/*
-.selected {
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-}*/
-
-
 .glazefood1 {
 margin-top:-5px;
 text-align: center;
@@ -185,12 +183,6 @@ padding-top:10px;
   margin-bottom:0px;
 }
 
-.cart{
-  background-color: #FDE096 ;
-  border-radius: 20px;
-  border: 3px solid black;
-}
-
 .cart:hover{
   opacity: 0.3;
 }
@@ -200,11 +192,18 @@ padding-top:10px;
   width:48px;
 }
 
-h1{
+.button{
+  background-color: #FDE096;
+  border-radius: 20px;
+  border: none;
+  color: black;
+  padding: 15px 40px;
   text-align: center;
-  margin-top:15px;
-  margin-right:10px;
-  margin-bottom: 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 /*CSS for footer texts*/
@@ -225,3 +224,10 @@ a:link {
   text-decoration: none;
 }
 
+#cart-count{
+  color:black;
+  font-size: 25px;
+  text-align: center;
+  width:50px;
+  height: 52px;
+}
