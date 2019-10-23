@@ -106,7 +106,7 @@
 }
 
 /*2nd column with image of the chosed roll and the ingredient table*/
-.ori{
+#ori{
   width:450px;
 }
 
@@ -145,17 +145,21 @@ h2 {
 
 .glazefood {
 margin-top:-5px;
-text-align: center
 }
 
-.glazepic:hover{
+.glazepic {
+  width:100px;
+  text-align: center;
+}
+
+/*.glazepic:hover{
   opacity: 0.3;
-}
-
+}*/
+/*
 .selected {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-}
+}*/
 
 
 .glazefood1 {
@@ -174,7 +178,7 @@ padding-top:10px;
 
 .total{
   font-size:40px;
-  margin-top: 350px;
+  margin-top: 200px;
   padding:10px;
   font-family:Reem Kufi;
   color: #C73535;
