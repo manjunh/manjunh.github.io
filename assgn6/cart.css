@@ -113,10 +113,6 @@ select{
   margin-bottom:20px;
 }
 
-.button:hover{
-  opacity: 0.3;
-}
-
 .button{
   background-color: #FDE096;
   border-radius: 20px;
@@ -128,9 +124,13 @@ select{
   font-size:20px;
   margin: 4px 2px;
   cursor: pointer;
-  left:78s%;
   position:relative;
+  left:930px;
 
+}
+
+.button:hover{
+  opacity: 0.3;
 }
 
 
