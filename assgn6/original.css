@@ -227,8 +227,7 @@ a:link {
 #cart-count{
   color:black;
   font-size: 25px;
-/*  text-align: center;*/
-  top: 25px;
-  right: 30px;
+  top: 51px;
+  right: 43px;
   position:absolute;
 }
