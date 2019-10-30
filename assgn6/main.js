@@ -34,6 +34,17 @@ function showcart() {
   }
 }
 
+// Same function as above, but also notifies the users that there's no item in the cart
+function showcartmore() {
+  var cart = localStorage.getItem('cart');
+  if (localStorage.getItem('cart') > 0) {
+    document.getElementById(`cart-count`).innerHTML = `${cart}`
+  }
+  else {
+    alert ("No Items in the Cart!")
+  }
+}
+
 // changing image as users switch between radio selection
 function changeImage() {
 	var choiceInputArr = document.getElementsByClassName("choice");
