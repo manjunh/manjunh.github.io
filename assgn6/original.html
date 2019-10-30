@@ -84,13 +84,13 @@
             <div class="rowgl">
               <div class="columngl">
                 <img class="glazepic" alt="No Glaze" src="image/noglaze.png">
-                <p class="glazefood"> <input class="choice" type="radio" name="glaze" checked="checked" value="None" onchange="changeImage()">None</p>
+                <p class="glazefood"> <input id="none" class="choice" type="radio" name="glaze" checked="checked" value="None" onchange="changeImage()">None</p>
                 <img class="glazepic" alt="Sugar-milk" src="image/sugarmilk.png">
-                <p class="glazefood"><input class="choice" type="radio" name="glaze" value="Sugar-milk" onchange="changeImage()">Sugar-milk</p>
+                <p class="glazefood"><input  id="sugar" class="choice" type="radio" name="glaze" value="Sugar-Milk" onchange="changeImage()">Sugar-Milk</p>
                 <div class="qty">
                   Quantity:
                   <select onchange="myFunction()" name="quantity" id="quantity">
-                    <option value="1">1</option>
+                    <option value="1" selected>1</option>
                     <option value="3">3</option>
                     <option value="6">6</option>
                     <option value="12">12</option>
@@ -99,9 +99,9 @@
               </div>
               <div class="columngl">
                 <img class="glazepic" alt="Vanilla-milk" src="image/vanillamilk.png">
-                <p class="glazefood"><input class="choice" type="radio" name="glaze" value="Vanilla-milk" onchange="changeImage()">Vanilla-milk</p>
+                <p class="glazefood"><input id="vanilla" class="choice" type="radio" name="glaze" value="Vanilla-Milk" onchange="changeImage()">Vanilla-Milk</p>
                 <img class="glazepic" alt="Double-Chocolate" src="image/doublechoco.png">
-                <p class="glazefood"><input class="choice" type="radio" name="glaze" value="Double-chocolate" onchange="changeImage()">Double-chocolate</p>
+                <p class="glazefood"><input id="doublechoco" class="choice" type="radio" name="glaze" value="Double-Chocolate" onchange="changeImage()">Double-Chocolate</p>
               </div>
           </div>
         <div>

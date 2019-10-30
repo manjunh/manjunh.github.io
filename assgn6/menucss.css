@@ -98,3 +98,12 @@ footer{
 .food:hover {
   opacity: 0.3;
 }
+
+/*adjusting cart count number on the cart logo*/
+#cart-count{
+  color:black;
+  font-size: 25px;
+  position:absolute;
+  top:35px;
+  right:50px;
+}

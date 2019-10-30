@@ -145,11 +145,25 @@ select{
 
 footer{
   padding-left:40%;
-  position: fixed;
   bottom: 0;
 }
 
 /*Remove underline in link*/
 a:link {
   text-decoration: none;
+}
+
+/*resizing and placing the trash icon*/
+.trash {
+  width:30px;
+  margin-left:60px;
+}
+
+/*adjusting cart count number on the cart logo*/
+#cart-count{
+  color:black;
+  font-size: 25px;
+  top: 35px;
+  right: 51px;
+  position:absolute;
 }

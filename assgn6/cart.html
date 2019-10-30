@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
    
-  <body>
+  <body onload="showcart(); row()">
     <!-- Putting the header picture with home button, text, search bar and cart -->    
     <div class="container">
        <div class="topnav">
@@ -19,20 +19,22 @@
       <div class="centered">CART</div>
     </div>
     <a href="homepage.html"><img class="top-left" alt="Logo" src="image/Logo.png"></a>
-    <img class="top-right" alt="Cart" src="image/cart1.png">
-    <!-- div for the javascript in updating quantity of the cart -->
-    <div id="cart-count"></div>
+      <img class="top-right" alt="Cart" src="image/cart.png">
+      <!-- div for the javascript in updating quantity of the cart -->
+      <div id="cart-count"></div>
     <!-- table that lists the things in cart -->
     <div style="width:1200px" class="table">
-      <table style="width:100%">
+      <table id="wholelist" style="width:100%" onload="row()">
           <tr class="tabletop">
             <th></th>
             <th></th>
             <th>Quantity</th>
             <th class>Glazing</th>
             <th class="price">Price</th>
+            <th></th>
           </tr>
-          <tr>
+          <!-- moved the tablerow HTML to JS -->
+          <!-- <tr id="itemrow" onload="row()">
             <td style="width: 250px"> 
              <img class=ori alt="Original Bun" src="image/original.jpg">
             </td>
@@ -53,14 +55,14 @@
                   <option value="Double-Chocolate">Double-Chocolate</option>
               </select>
             </td>
-            <td class="price">$4.00</td>
-          </tr>
+            <td class="price">$3.00</td>
+          </tr> -->
       </table>
       <!-- button to go back to Menu -->
       <div><a href="MENU.html"> &lt; Back to Menu</a></div>
       <!-- subtotal -->
       <div>
-        <p class="total"> Subtotal: $4.00</p>
+        <p class="total" id="subtotal"></p>
       </div>
       <!-- proceed to checkout button -->
       <div>

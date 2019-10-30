@@ -145,3 +145,12 @@ a:link {
   text-decoration: none;
 }
 
+/*adjusting cart count number on the cart logo*/
+#cart-count{
+  color:black;
+  font-size: 25px;
+  position: absolute; 
+  right:70px;
+  bottom:506px;
+  font-family:sans-serif;
+}

@@ -224,10 +224,11 @@ a:link {
   text-decoration: none;
 }
 
+/*adjusting cart count number on the cart logo*/
 #cart-count{
   color:black;
   font-size: 25px;
   top: 51px;
-  right: 43px;
+  right: 40px;
   position:absolute;
 }
