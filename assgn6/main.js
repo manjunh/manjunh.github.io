@@ -130,21 +130,15 @@ function row() {
 }
 
 // removes the item in the same row as the clicked trash icon, reducing the cart number by 1
+// the function brings the current existing array into a new storage, except the one that was deleted
 function trash(id) {
   var index = parseInt(id.charAt(5));
   var removeitem = document.getElementsByClassName('trash');
   var removearray = localStorage.getItem('cartitem');
   var convertedArr = JSON.parse("[" + removearray + "]");
-  console.log(removeitem)
-    console.log(index)
   var button = removeitem[index]
-  console.log(button.parentElement)
-  console.log(button.parentElement.parentElement)
   button.parentElement.parentElement.remove()
-  // }
   var emptyArr = []
-
-  // grab every cart item that isn't the one we just deleted
   for (var i = 0; i < JSON.parse(removearray).length; i++) {
     if (i === index) {
       continue
@@ -153,16 +147,6 @@ function trash(id) {
     emptyArr.push(storage[i])
   }
   console.log(emptyArr)
-
-  // var newArr = []
-  // //removed undefined values to clean up output
-  // for (var i = 0; i <emptyArr.length; i++) {
-  //   if (emptyArr[i] !== undefined) {
-  //     newArr.push(emptyArr[i])
-  //   }
-  // }
-  // console.log(newArr)
-// removes 1 every time the trash is clicked
   localStorage.setItem('cartitem', JSON.stringify(emptyArr))
   localStorage.setItem('cart', emptyArr.length)
   window.location.reload()
