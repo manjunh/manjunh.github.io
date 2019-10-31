@@ -135,17 +135,17 @@ function trash(id) {
   var removeitem = document.getElementsByClassName('trash');
   var removearray = localStorage.getItem('cartitem');
   var convertedArr = JSON.parse("[" + removearray + "]");
-  for (var i=0; i < removeitem.length; i++) {
+  console.log(removeitem)
     console.log(index)
-    var button = removeitem[index]
-    console.log(button.parentElement)
-    console.log(button.parentElement.parentElement)
-    button.parentElement.parentElement.remove()
-  }
+  var button = removeitem[index]
+  console.log(button.parentElement)
+  console.log(button.parentElement.parentElement)
+  button.parentElement.parentElement.remove()
+  // }
   var emptyArr = []
 
   // grab every cart item that isn't the one we just deleted
-  for (var i = 0; i < removearray.length; i++) {
+  for (var i = 0; i < JSON.parse(removearray).length; i++) {
     if (i === index) {
       continue
     }
@@ -154,17 +154,17 @@ function trash(id) {
   }
   console.log(emptyArr)
 
-  var newArr = []
-  //removed undefined values to clean up output
-  for (var i = 0; i <emptyArr.length; i++) {
-    if (emptyArr[i] !== undefined) {
-      newArr.push(emptyArr[i])
-    }
-  }
-  console.log(newArr)
+  // var newArr = []
+  // //removed undefined values to clean up output
+  // for (var i = 0; i <emptyArr.length; i++) {
+  //   if (emptyArr[i] !== undefined) {
+  //     newArr.push(emptyArr[i])
+  //   }
+  // }
+  // console.log(newArr)
 // removes 1 every time the trash is clicked
-  localStorage.setItem('cartitem', JSON.stringify(newArr))
-  localStorage.setItem('cart', newArr.length)
+  localStorage.setItem('cartitem', JSON.stringify(emptyArr))
+  localStorage.setItem('cart', emptyArr.length)
   window.location.reload()
 }
 
