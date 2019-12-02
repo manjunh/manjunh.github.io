@@ -1,0 +1,42 @@
+h1 {
+	font-family: Reem Kufi;
+	margin-top: 4vw;
+	font-weight: bold;
+	box-sizing: border-box;
+	font-size: 5vw;
+}
+
+.childadult {
+	width: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.navbar-nav {
+	align-items: flex-end;
+    width: 100%;
+    justify-content: space-around;
+    font-family: Reem Kufi;
+    font-size: 21px;
+}
+
+h4{
+	font-size: 14px;
+}
+
+.container {
+	justify-content: center;
+}
+
+.babyface{
+	width:200px;
+	position: relative;
+	display:block;
+	margin:auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+
