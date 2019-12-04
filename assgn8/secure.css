@@ -1,0 +1,32 @@
+.navbar-nav {
+	align-items: flex-end;
+    width: 100%;
+    justify-content: space-around;
+    font-family: Reem Kufi;
+    font-size: 21px;
+}
+
+.container {
+	justify-content: center;
+}
+
+.center{
+	width:200px;
+	position: relative;
+	display:block;
+	margin:auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+h2 {
+	text-align: center;
+	width: 100%;
+	font-family: Reem Kufi;
+	margin:auto;
+	padding-top:30px;
+}
+
+.text{
+	font-family: Reem Kufi;
+}
