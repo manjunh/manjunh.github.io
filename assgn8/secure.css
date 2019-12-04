@@ -15,7 +15,7 @@
 	position: relative;
 	display:block;
 	margin:auto;
-	padding-top: 10%;
+	padding-top: 20%;
 	padding-bottom: 10%;
 }
 
@@ -29,4 +29,54 @@ h2 {
 
 .text{
 	font-family: Reem Kufi;
+}
+
+
+/*animation for button https://codepen.io/konradwax/pen/woPNqJ*/
+button {
+  border-radius: 4px;
+  background-color: #F49393;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Reem Kufi;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '⯆';
+  position: absolute;
+  opacity: 0;  
+  top: 64px;
+  right: 100px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-top: 8px;
+  padding-bottom:24px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 100px;
+  top: 34px;
+}
+
+.adultpic{
+	width:400px;
+	padding-top: 30px;
 }
