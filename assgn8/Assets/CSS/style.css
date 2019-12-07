@@ -201,6 +201,15 @@ top:18%;
   transform: translate(-50%, -50%)
 }
 
+.percent1 {
+  position:absolute;
+  top:82.6%;
+  width:265px;
+  left: 50.3%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
 #percenttext{
   position:absolute;
   bottom: 5%;
