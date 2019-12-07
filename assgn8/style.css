@@ -1,4 +1,4 @@
-/*CSS for */
+/*CSS for nav bar on top*/
 .navbar-nav {
 	align-items: flex-end;
     width: 100%;
@@ -82,6 +82,10 @@ button:hover:after {
   width: 33.33%;
 }
 
+.scrollnav {
+  color: white;
+}
+
 /*CSS for the back to top*/
 #topBtn{
   position: fixed;
@@ -138,10 +142,7 @@ button:hover:after {
     opacity:1;
   }
 
-.scrollnav {
-  color: white;
-}
-
+/*CSS of the adult figure picture*/
 .adultpic{
   width:400px;
   padding-top: 30px;
@@ -151,6 +152,7 @@ button:hover:after {
   position: relative;
 }
 
+/*CSS for appearing images and text when hovering over adult image*/
 .hoverspot {
   opacity: 0;
   transition: 0.3s;
@@ -217,6 +219,7 @@ top:18%;
   left:30%;
 }
 
+/*Ending quote*/
 .quote {
   text-align: left;
   width: 100%;
@@ -226,6 +229,7 @@ top:18%;
   font-size:27px;
 }
 
+/*color of bold font*/
 b{
   color: #e74c3c;
 }
